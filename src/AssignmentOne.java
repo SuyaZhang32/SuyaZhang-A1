@@ -37,17 +37,17 @@ public class AssignmentOne {
         // Part 5 – Collection of appointments
         ArrayList<Appointment> appointmentList = new ArrayList<>();
         //Make an appointment with a general practitioner 1
-        appointmentList = createAppointment(appointmentList,new Appointment("susan",19928831l,"8:00",general2));
+        appointmentList = createAppointment(appointmentList,new Appointment("Susan",19928831l,"8:00",general2));
         //Make an appointment with a general practitioner 2
-        appointmentList = createAppointment(appointmentList,new Appointment("jduer",19954671l,"11:00",general3));
+        appointmentList = createAppointment(appointmentList,new Appointment("Jduer",19954671l,"11:00",general3));
         //Make an appointment with a surgeon1
-        appointmentList = createAppointment(appointmentList,new Appointment("jessic",199546731l,"12:00",surgeon1));
+        appointmentList = createAppointment(appointmentList,new Appointment("Jessic",199546731l,"12:00",surgeon1));
         //Make an appointment with a surgeon2
-        appointmentList = createAppointment(appointmentList,new Appointment("galun",19976541l,"3:00",surgeon1));
+        appointmentList = createAppointment(appointmentList,new Appointment("Galun",19976541l,"3:00",surgeon1));
         //Print a list of appointments
         printExistingAppointments(appointmentList);
         //Unappointed surgeon 1
-        appointmentList = cancelBooking(appointmentList,new Appointment("susan",19928831l,"8:00",general2));
+        appointmentList = cancelBooking(appointmentList,new Appointment("Susan",19928831l,"8:00",general2));
         //Print the list of cancelled appointments
         printExistingAppointments(appointmentList);
 
