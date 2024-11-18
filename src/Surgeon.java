@@ -1,4 +1,6 @@
-
+/**
+ * Inherited from the HealthProfessional class for surgeon
+ */
 public class Surgeon extends HealthProfessional{
 
     //Types of health personne
@@ -8,6 +10,7 @@ public class Surgeon extends HealthProfessional{
         super();
     }
 
+    //Call the superclass constructor to initialize
     public Surgeon(long ID, String name, String describe,String type) {
         super(ID, name, describe);
         this.type = type;

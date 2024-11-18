@@ -6,6 +6,7 @@
  */
 public class HealthProfessional {
 
+    // Private member variable that stores the ID, name, and profile of the medical professional
     private long ID;
 
     private String name;
@@ -14,6 +15,7 @@ public class HealthProfessional {
     public HealthProfessional() {
 
     }
+    // Full parameter constructor used to initialize the HealthProfessional object
     public HealthProfessional(long ID, String name, String describe) {
         this.ID = ID;
         this.name = name;
@@ -25,6 +27,7 @@ public class HealthProfessional {
         System.out.println("describe:'"+this.describe+ '\'');
     }
 
+    // Compare two HealthProfessional objects for equality
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

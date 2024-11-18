@@ -1,5 +1,9 @@
 import java.util.ArrayList;
 
+/**
+ * AssignmentOne is the main class of the project and is used to perform interactions with the reservation system
+ */
+
 public class AssignmentOne {
 
     public static void main(String[] args) {

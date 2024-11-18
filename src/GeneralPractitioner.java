@@ -1,5 +1,6 @@
-
-
+/**
+ * Inherited from the HealthProfessional class, denotes general practitioner
+ */
 
 public class GeneralPractitioner extends HealthProfessional{
 
@@ -11,6 +12,7 @@ public class GeneralPractitioner extends HealthProfessional{
         super();
     }
 
+    //Call the superclass constructor to initialize
     public GeneralPractitioner(long ID, String name, String describe,String type) {
         super(ID, name, describe);
         this.type = type;

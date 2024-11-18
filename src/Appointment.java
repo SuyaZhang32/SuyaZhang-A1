@@ -1,6 +1,9 @@
+/**
+ * Represents an appointment information, including patient name, phone number, time period, and selected medical professional
+ */
 public class Appointment {
 
-
+    // Membership variable, which is used to store patient information and appointments with medical professionals
     private String patientName;
 
     private long patientPhone;
@@ -13,6 +16,7 @@ public class Appointment {
     public Appointment() {
     }
 
+    //A full argument constructor used to initialize the Appointment object
     public Appointment(String patientName, long patientPhone, String timePeriod, HealthProfessional healthProfessional) {
         this.patientName = patientName;
         this.patientPhone = patientPhone;
@@ -33,6 +37,7 @@ public class Appointment {
         return healthProfessional != null ? healthProfessional.equals(that.getHealthProfessional()) : that.getHealthProfessional() != null;
     }
 
+    // Print the details of the reservation
     public void print() {
         System.out.println("PatientInfo@timePeriod:'" + timePeriod + '\'' +"  patientName:'" + patientName + '\''+"  patientPhone:" + patientPhone);
         System.out.print("Professional@");

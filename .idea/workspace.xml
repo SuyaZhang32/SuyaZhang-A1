@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ce7df02d-b6bb-4a7b-8b71-f85a3f6ef74e" name="Default Changelist" comment="Add annotations">
+      <change beforePath="$PROJECT_DIR$/src/Appointment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Appointment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AssignmentOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AssignmentOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GeneralPractitioner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GeneralPractitioner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HealthProfessional.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HealthProfessional.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Surgeon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Surgeon.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;SuyaZhang32&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:SuyaZhang32/SuyaZhang-A1.git&quot;,
+    &quot;accountId&quot;: &quot;408b46b6-c773-43c1-a180-4b0fd3ca4e97&quot;
+  }
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="D:\IntelliJ IDEA 2020.2.1\plugins\maven\lib\maven3" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2opd9GsnjOX1e0Dql47D1BZvzUy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/32hz./Desktop/SuyaZhang-A1&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;应用程序.AssignmentOne.executor&quot;: &quot;Run&quot;
+  }
+}</component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RunManager">
+    <configuration name="AssignmentOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AssignmentOne" />
+      <module name="SuyaZhang-A1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.AssignmentOne" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-IU-243.21565.193" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ce7df02d-b6bb-4a7b-8b71-f85a3f6ef74e" name="Default Changelist" comment="" />
+      <created>1731570299013</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731570299013</updated>
+      <workItem from="1731570300635" duration="1697000" />
+      <workItem from="1731655843395" duration="6536000" />
+      <workItem from="1731830260156" duration="354000" />
+      <workItem from="1731831110928" duration="3000" />
+      <workItem from="1731897040114" duration="1779000" />
+      <workItem from="1731912557540" duration="75000" />
+      <workItem from="1731912677384" duration="665000" />
+      <workItem from="1731913350540" duration="47000" />
+      <workItem from="1731913418572" duration="917000" />
+      <workItem from="1731914352416" duration="93000" />
+      <workItem from="1731916607315" duration="141000" />
+      <workItem from="1731916752548" duration="8000" />
+      <workItem from="1731917250053" duration="1090000" />
+    </task>
+    <task id="LOCAL-00001" summary="Add annotations">
+      <created>1731898930112</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1731898930112</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add annotations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add annotations" />
+  </component>
+</project>
