@@ -3,7 +3,7 @@
  */
 public class Appointment {
 
-    // Membership variable, which is used to store patient information and appointments with medical professionals
+    // Member variables to store patient information and appointment details, which is used to store patient information and appointments with medical professionals
     private String patientName;
 
     private long patientPhone;
@@ -39,9 +39,14 @@ public class Appointment {
 
     // Print the details of the reservation
     public void print() {
-        System.out.println("PatientInfo@timePeriod:'" + timePeriod + '\'' +"  patientName:'" + patientName + '\''+"  patientPhone:" + patientPhone);
-        System.out.print("Professional@");
-        healthProfessional.print();
+        System.out.println("Patient Info:");
+        System.out.println("Name: '" + patientName + "' | Phone: " + patientPhone + " | Time Period: '" + timePeriod + "'");
+        System.out.println("Professional:");
+        if (healthProfessional != null) {
+            healthProfessional.print();
+        } else {
+            System.out.println("No Health Professional assigned.");
+        }
     }
 
 

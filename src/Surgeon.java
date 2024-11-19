@@ -3,7 +3,7 @@
  */
 public class Surgeon extends HealthProfessional{
 
-    //Specialization of health personne
+    //Specialization of health personnel
     private String specialization;
 
     public Surgeon() {
@@ -14,9 +14,13 @@ public class Surgeon extends HealthProfessional{
     //Call the superclass constructor to initialize
     public Surgeon(long ID, String name, String describe,String type) {
         super(ID, name, describe);
-        this.specialization = specialization; // Use 'this' for better clarity
+        // Parameter check to ensure that specialization always has a valid value
+        if (type == null || type.isEmpty()) {
+            this.specialization = "Surgeon"; // Default value
+        } else {
+            this.specialization = type; // Assign to specialization
+        }
     }
-
 
     //Print member variables of medical professionals
     @Override

@@ -24,6 +24,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ce7df02d-b6bb-4a7b-8b71-f85a3f6ef74e" name="Default Changelist" comment="Add annotations">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Appointment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Appointment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GeneralPractitioner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GeneralPractitioner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Surgeon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Surgeon.java" afterDir="false" />
     </list>
@@ -139,6 +140,9 @@
       <workItem from="1731943948079" duration="706000" />
       <workItem from="1731978939935" duration="861000" />
       <workItem from="1731979806797" duration="33000" />
+      <workItem from="1731979846875" duration="113000" />
+      <workItem from="1731997871523" duration="1149000" />
+      <workItem from="1731999100059" duration="302000" />
     </task>
     <task id="LOCAL-00001" summary="Add annotations">
       <created>1731898930112</created>
