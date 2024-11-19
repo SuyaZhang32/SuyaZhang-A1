@@ -6,16 +6,17 @@ public class GeneralPractitioner extends HealthProfessional{
 
 
     //Types of health personnel
-    private String type;
+    private String specialization;
 
     public GeneralPractitioner() {
         super();
+        this.specialization = "General Practitioner"; // Assign a default value
     }
 
     //Call the superclass constructor to initialize
     public GeneralPractitioner(long ID, String name, String describe,String type) {
         super(ID, name, describe);
-        this.type = type;
+        this.specialization = specialization;
     }
 
 
@@ -23,6 +24,6 @@ public class GeneralPractitioner extends HealthProfessional{
     @Override
     public void print(){
         super.print();
-        System.out.println("type:'"+this.type+ '\'');
+        System.out.println("Specialization:'"+this.specialization+ '\'');
     }
 }
