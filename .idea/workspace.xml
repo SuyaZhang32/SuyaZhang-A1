@@ -24,8 +24,9 @@
   <component name="ChangeListManager">
     <list default="true" id="ce7df02d-b6bb-4a7b-8b71-f85a3f6ef74e" name="Default Changelist" comment="Add annotations">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Appointment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Appointment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AssignmentOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AssignmentOne.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GeneralPractitioner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GeneralPractitioner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HealthProfessional.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HealthProfessional.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Surgeon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Surgeon.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -142,7 +143,13 @@
       <workItem from="1731979806797" duration="33000" />
       <workItem from="1731979846875" duration="113000" />
       <workItem from="1731997871523" duration="1149000" />
-      <workItem from="1731999100059" duration="302000" />
+      <workItem from="1731999100059" duration="554000" />
+      <workItem from="1731999674781" duration="20000" />
+      <workItem from="1732000050410" duration="502000" />
+      <workItem from="1732004057764" duration="34000" />
+      <workItem from="1732009350434" duration="890000" />
+      <workItem from="1732018337717" duration="2083000" />
+      <workItem from="1732021287524" duration="108000" />
     </task>
     <task id="LOCAL-00001" summary="Add annotations">
       <created>1731898930112</created>

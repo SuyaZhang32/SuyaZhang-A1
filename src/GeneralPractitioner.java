@@ -14,8 +14,8 @@ public class GeneralPractitioner extends HealthProfessional{
     }
 
     //Call the superclass constructor to initialize
-    public GeneralPractitioner(long ID, String name, String describe,String type) {
-        super(ID, name, describe);
+    public GeneralPractitioner(long ID, String name, String describe,String type,int yearsOfExperience, String contactInfo) {
+        super(ID, name, describe, yearsOfExperience, contactInfo);
         this.specialization = type;
     }
 

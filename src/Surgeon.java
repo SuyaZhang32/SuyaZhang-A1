@@ -12,8 +12,8 @@ public class Surgeon extends HealthProfessional{
     }
 
     //Call the superclass constructor to initialize
-    public Surgeon(long ID, String name, String describe,String type) {
-        super(ID, name, describe);
+    public Surgeon(long ID, String name, String describe,String type,int yearsOfExperience, String contactInfo) {
+        super(ID, name, describe, yearsOfExperience, contactInfo);
         // Parameter check to ensure that specialization always has a valid value
         if (type == null || type.isEmpty()) {
             this.specialization = "Surgeon"; // Default value

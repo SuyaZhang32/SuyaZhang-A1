@@ -10,25 +10,28 @@ public class AssignmentOne {
         long hpOneID = 62345l;
         String hpOneName = "voctoy";
         String hpOneDesc = "super healthProfessional";
+        int hpOneExperience = 10;
+        String hpOneContact = "voctoy@example.com";
+
         //Create examples of medical professionals by constructing methods
-        HealthProfessional hpOne = new HealthProfessional(hpOneID,hpOneName,hpOneDesc);
+        HealthProfessional hpOne = new HealthProfessional(hpOneID,hpOneName,hpOneDesc,hpOneExperience,hpOneContact);
         //Call the output information method of the instance
         hpOne.print();
         System.out.println("");
         // Part 3 – Using classes and objects
-        GeneralPractitioner  general1 = new GeneralPractitioner(12345l,"voctoy.smix","first generalProfessional","general");
+        GeneralPractitioner  general1 = new GeneralPractitioner(12345l,"voctoy.smix","first generalProfessional","general",5,"smix@123.com");
         general1.print();
         System.out.println("");
-        GeneralPractitioner  general2 = new GeneralPractitioner(12346l,"voctoy.aluph","18 age generalProfessional","general");
+        GeneralPractitioner  general2 = new GeneralPractitioner(12346l,"voctoy.aluph","18 age generalProfessional","general",3,"aluph@123.com");
         general2.print();
         System.out.println("");
-        GeneralPractitioner  general3 = new GeneralPractitioner(12349l,"voctoy.alix","new generalProfessional","general");
+        GeneralPractitioner  general3 = new GeneralPractitioner(12349l,"voctoy.alix","new generalProfessional","general",7,"alix@123.com");
         general3.print();
         System.out.println("");
-        Surgeon surgeon1 = new Surgeon(12352l,"voctoy.adom","super surgeon","surgeon");
+        Surgeon surgeon1 = new Surgeon(12352l,"voctoy.adom","super surgeon","surgeon",4,"adom@123.com");
         surgeon1.print();
         System.out.println("");
-        Surgeon surgeon2 = new Surgeon(12354l,"voctoy.frened","old surgeon","surgeon");
+        Surgeon surgeon2 = new Surgeon(12354l,"voctoy.frened","old surgeon","surgeon",8,"frened@123.com");
         surgeon2.print();
         System.out.println("");
         System.out.println("------------------------------");
@@ -46,6 +49,8 @@ public class AssignmentOne {
         appointmentList = createAppointment(appointmentList,new Appointment("Galun",19976541l,"3:00",surgeon1));
         //Print a list of appointments
         printExistingAppointments(appointmentList);
+        System.out.println("------------------------------");
+
         //Unappointed surgeon 1
         appointmentList = cancelBooking(appointmentList,new Appointment("Susan",19928831l,"8:00",general2));
         //Print the list of cancelled appointments
