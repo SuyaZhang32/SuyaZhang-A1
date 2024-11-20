@@ -1,11 +1,13 @@
 /**
- * Inherited from the HealthProfessional class for surgeon
+ * Represents a surgeon in the health system.
+ * Inherits from the HealthProfessional class.
  */
 public class Surgeon extends HealthProfessional{
 
     //Specialization of health personnel
     private String specialization;
 
+    //Sets specialization to "Surgeon" by default.
     public Surgeon() {
         super();
         this.specialization = "Surgeon"; // Assign a default value

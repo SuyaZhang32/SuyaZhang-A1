@@ -10,13 +10,13 @@ public class HealthProfessional {
 
     // Private member variable that stores the ID, name, and profile of the medical professional
     private long ID;
-
+    // Name of the medical professional
     private String name;
-
+    // Description or biography of the professional
     private String describe;
-
+    // Years of experience in the medical field
     private int yearsOfExperience;
-
+    // Contact information
     private String contactInfo;
 
     public HealthProfessional() {

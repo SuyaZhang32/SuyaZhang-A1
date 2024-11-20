@@ -1,13 +1,15 @@
 /**
- * Inherited from the HealthProfessional class, denotes general practitioner
+ *  Represents a general practitioner in the health system.
+ *  Inherits from the HealthProfessional class.
  */
 
 public class GeneralPractitioner extends HealthProfessional{
 
 
-    //Types of health personnel
+    //Specialization of the practitioner
     private String specialization;
 
+    //Sets default specialization to "General Practitioner".
     public GeneralPractitioner() {
         super();
         this.specialization = "General Practitioner"; // Assign a default value

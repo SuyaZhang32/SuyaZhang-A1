@@ -5,11 +5,11 @@ public class Appointment {
 
     // Member variables to store patient information and appointment details, which is used to store patient information and appointments with medical professionals
     private String patientName;
-
+    // Patient's phone number
     private long patientPhone;
-
+    // Appointment time period
     private String timePeriod;
-
+    // Associated health professional for the appointment
     private HealthProfessional healthProfessional;
 
 
